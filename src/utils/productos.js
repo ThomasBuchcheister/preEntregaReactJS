@@ -44,7 +44,7 @@ const productos = [
         titulo: "Camiseta alternativa Argentina 1994",
         precio: 9000,
         type: "Suplente",
-        parrafo: "esto es un parrafo",
+        parrafo: "🔥Espectacular camiseta retro Argentina mundial Usa 94 Diego Maradona.",
         stock: 15,
         imagen: "https://d3ugyf2ht6aenh.cloudfront.net/stores/216/721/products/photoroom-20220401_0953131-958df79fee9b43790916488497346655-1024-1024.png"
     },

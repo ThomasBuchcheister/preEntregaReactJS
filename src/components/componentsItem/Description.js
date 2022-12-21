@@ -7,8 +7,8 @@ const Description = (props) => {
 
             <div className="descriptionContainer">
                 <span className="descriptionTitle">Description</span> 
-                <p className="descriptionContent">
-                    {props.descriptionContent}
+                <p className="parrafo">
+                    {props.parrafo}
                 </p>   
             </div>
 
