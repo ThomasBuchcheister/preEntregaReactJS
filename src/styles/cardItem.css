@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.cardItem{
+    
+    height: 480px;
+    width: 260px;
+    padding: 10px ;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Imagen*/
+
+.cardItem .cardImg{
+    
+    display: flex;
+    justify-content: center;
+    height: 250px;
+
+}
+
+.cardItem .cardImg img{
+    width: 100%;
+
+}
+
+/* Description */
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.cardDescription .descriptionContainer{
+    display: none;
+}
+
+.cardDescription .title{
+    font-size: 21px;
+    margin: 10px 0;
+    margin: 6px 0;
+    
+}
+
+.cardDescription .cant{
+    color: black;
+    font-size: 13px;
+    margin: 6px 0;
+    
+}
+.cardDescription .price{
+    color: blue;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 6px 0;
+    
+}
+
+/* CONTENEDOR DE BOTONES */
+
+.buttons{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.buttons #detalles{
+    width: 75%;
+    height: 45px;
+    color: white;
+    background-color: blue;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+.buttons #detalles:hover{
+    background-color: rgb(59, 59, 243);
+}
+
+.buttons #addCart{
+    background-color: blue;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons #addCart img{
+    width: 20px;
+    height: 20px;
+    transform: scale(0.8);
+}
+
+.buttons #addCart:hover{
+    background-color: rgb(59, 59, 243);
+}
